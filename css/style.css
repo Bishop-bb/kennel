@@ -1,0 +1,356 @@
+
+#over{
+    color: red;
+}
+body{
+    background-color: black;
+}
+
+
+#home img{
+    height: 500px;
+    width: 100%;
+}
+
+#home2{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+#home2 > div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+#home2 .low{
+    font-size: 25px;
+    align-self: center;
+    padding-right: 10px;
+    color: orange;  
+}
+
+#home2 h3{
+    font-size: 23px;
+    color: orange;
+}
+
+#home2 span{
+    font-style: italic;
+}
+
+#home3{
+    display: flex;   
+    justify-content: space-around; 
+    padding: 80px;
+
+}
+
+#home3 #img{
+    width: 45%;
+}
+
+#home3 #about{
+    width: 40%;
+    align-self: center;
+    color: white;
+}
+#about .dog{
+    color: orange;
+    padding-right: 5px;
+}
+#home3 img{
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+}
+
+#home4{
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+#home4 #avail{
+    text-align: center;
+}
+
+#home4 #pet{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pet > div{
+    width: 25%; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+
+#pet img{
+    width: 100%;
+    height: 250px;
+   
+}
+
+
+#pet p{
+    text-align: center;
+    padding: 5px 35px;
+    font-style: italic;
+}
+
+#pet h3{
+    padding-left: 35px;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+#avail h2{
+    margin-bottom: 30px;
+    color: orange
+}
+
+#avail p{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+
+#footer h4{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#foot > div{
+    color: orange;
+}
+
+#foot .high{
+    padding-right: 5px;
+}
+
+#end a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#end .med{
+    font-size: 25px;
+    color: white
+}
+
+#end{
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+
+
+
+
+/* RESPONSIVENESS */
+@media (max-width: 815px){
+ #foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ #foot > div{
+    padding: 5px;
+ }
+}
+
+
+
+@media (max-width: 670px) {
+   
+   
+  #home2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 40px ;
+    text-align: center;
+    
+}  
+
+#home2 > div{
+    box-shadow: rgba(27, 1, 1, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#home4 #pet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#pet{
+    margin:0 80px;
+}
+#pet > div{
+    width: 100%; 
+    margin: 15px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+#pet img{
+    width: 100%;
+    height: 350px;
+   
+}
+
+#footer{
+    padding: 20px;
+}
+
+
+#end{
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+
+#end > div > a{
+    padding : 10px; 
+}
+
+
+}
+
+
+@media (max-width:575px){
+
+}
+
+
+
+@media (max-width:560px){
+
+    #home img{
+        height: 400px;
+       
+    }
+    #end{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #end > div{
+        margin-top: -35px;
+    }
+
+    #end nav{
+        padding-top: 10px;
+    }
+}
+
+
+@media (max-width:550px) {
+#home3{
+    display: flex; 
+    flex-direction: column;  
+    justify-content: space-around; 
+    padding: 60px;
+
+}
+
+#home3 #img{
+    width: 100%;
+}
+#home3 #about{
+    padding-top: 10px;
+    width: 60%;
+    align-self: center;
+    color: white;
+}
+}
+
+
+@media (max-width:460px) {
+#home3 #about{
+    padding-top: 10px;
+    width: 100%;
+    align-self: center;
+    color: white;
+    text-align: center;
+}
+
+#pet{
+    margin:0 60px;
+}
+
+#pet img{
+    width: 100%;
+    height: 250px;
+   
+}
+}
+
+@media (max-width:400px) {
+    #home3 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+#home3{
+    display: flex; 
+    flex-direction: column;  
+    justify-content: space-around; 
+    padding: 40px;
+
+}
+
+#pet{
+    margin:0 30px;
+}
+
+#pet img{
+    width: 100%;
+    height: 230px;
+   
+}
+
+
+#end > div > a{
+    padding : 20px; 
+}
+
+
+}
+
+
+@media (max-width:450px){
+    #footer{
+        text-align: center;
+    }
+
+    
+    
+}

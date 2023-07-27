@@ -1,0 +1,71 @@
+#con1 img{
+    width: 100%;
+    height: 500px;
+}
+
+#con2{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+#con2 > div{
+    width: 100%;
+    text-align: center;
+    /* justify-content: space-evenly; */
+}
+
+#div{
+    margin-bottom: 20px;
+    border-bottom: 5px solid whitesmoke;
+}
+
+#con2 span{
+    /* padding: 20px 0; */
+    font-size: 18px;
+}
+
+#con2 nav{
+    margin-top: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+
+#con2 nav a{
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+    font-size: 25px;
+}
+#con2 nav > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#con2 strong{
+    font-size: 18px;
+}
+
+.high{
+    font-size: 30px;
+}
+
+
+
+
+#bod{
+    background-color: black;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width:560px){
+    #con1 img{
+        width: 100%;
+        height: 400px;
+    }
+}

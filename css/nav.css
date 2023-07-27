@@ -1,0 +1,25 @@
+#navy{
+    padding: 20px;
+    text-align: center;
+    
+}
+#navy a{
+    /* background-color: wheat; */
+    color: white;
+    font-weight: 600;
+    padding: 0 10px;
+    font-size: 18px;
+    
+}
+
+#navy a:hover{
+    color: orange
+}
+
+@media (max-width:575px){
+    #navy a{
+        padding: 10px;
+        
+        
+    }
+}
